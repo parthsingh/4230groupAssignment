@@ -54,7 +54,7 @@ def main():
     size = comm.Get_size()
     
     # Define the values of N and P for the experiments
-    N_values = [5000] # 100, 1000, 5000, 10000
+    N_values = [500] # 100, 1000, 5000, 10000
     P_values = [1, 2, 4, 8]
     
     # Dictionary to store runtimes for different values of N and P
