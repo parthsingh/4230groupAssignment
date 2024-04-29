@@ -109,6 +109,7 @@ def main():
     plt.grid(True)
     plt.legend()
     plt.show() 
+    plt.savefig("image.png")
     
 if __name__ == "__main__":
     main()
